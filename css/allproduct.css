@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foot{
+    height: 50vh;
+    width: 100%;
+}
+.footitems{
+    justify-content: space-between;
+}
+.linkks{
+    margin-left: 20px;
+}
+.footitem2{
+    margin-right: 150px;
+    line-height: 50px;
+    border-left: 8px solid cornflowerblue;
+    padding-left: 80px;
+}
+.footitem2 h1{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+.d-flexer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footicons{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+
+}
+
+
+/* =================================== */
+/*  Footer Styles
+/* =================================== */
+.footer-area {
+    background-color: #04091e;
+  }
+  
+  .single-footer-widget h4 {
+    color: #fff !important;
+    margin-bottom: 25px;
+    font-weight: 500;
+  }
+  
+  .single-footer-widget .form-control {
+    border: none;
+    width: 80% !important;
+    font-weight: 300;
+    background: #f9f9ff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: normal !important;
+    color: #222;
+  }
+  
+  .single-footer-widget .form-control:focus {
+    box-shadow: none;
+    color: #222;
+  }
+  
+  .single-footer-widget ul li {
+    margin-bottom: 10px;
+  }
+  
+  .single-footer-widget ul li a {
+    color: #777777;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .single-footer-widget ul li a:hover {
+    color: #8490ff;
+  }
+  
+  .single-footer-widget .bb-btn {
+    color: #8490ff;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 0;
+    z-index: 9999;
+    cursor: pointer;
+  }
+  
+  .single-footer-widget .info {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .single-footer-widget .info.valid {
+    color: green;
+  }
+  
+  .single-footer-widget .info.error {
+    color: red;
+  }
+  
+  .single-footer-widget .btn {
+    font-size: 1.2rem;
+    border-radius: 0;
+    background: #8490ff;
+    color: #fff;
+  }
+  
+  .single-footer-widget .btn .lnr {
+    line-height: inherit;
+    font-size: 13px;
+    padding: 0px 4px;
+  }
+  
+  .single-footer-widget ::-moz-selection {
+    /* Code for Firefox */
+    background-color: #191919 !important;
+    color: #777777;
+  }
+  
+  .single-footer-widget ::selection {
+    background-color: #191919 !important;
+    color: #777777;
+  }
+  
+  .single-footer-widget ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #777777;
+    font-weight: 300;
+  }
+  
+  .single-footer-widget :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #777777;
+    opacity: 1;
+    font-weight: 300;
+  }
+  
+  .single-footer-widget ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #777777;
+    opacity: 1;
+    font-weight: 300;
+  }
+  
+  .single-footer-widget :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #777777;
+    font-weight: 300;
+  }
+  
+  .single-footer-widget ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #777777;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 991.98px) {
+    .single-footer-widget {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .single-footer-widget .footer-social a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .single-footer-widget .footer-social a i {
+    vertical-align: bottom;
+    color: #fff;
+  }
+  
+  .single-footer-widget .footer-social a:hover i {
+    color: #8490ff;
+  }
+  
+  .footer-bottom {
+    padding-top: 50px;
+  }
+  
+  .footer-bottom .footer-social {
+    text-align: right;
+  }
+  .footnav{
+    margin-left: 20px;
+  }
+  .foot{
+    margin-top: -20px ;
+  }
+  .single-footer-widget h4{
+    color: #000 !important;
+  }
+  @media (max-width: 991px) {
+    .footer-bottom .footer-social {
+      text-align: left;
+      margin-top: 30px;
+    }
+    .foot{
+      margin-top: -2px !important;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .footer-bottom .lnr, .footer-bottom a {
+    color: #8490ff;
+  }
+  
+  .footer-text a {
+    color: #8490ff;
+  }
+  
+  /*-------- end footer Area -------------*/
+  
+  
